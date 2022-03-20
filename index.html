@@ -13,59 +13,34 @@
     <script src="https://kit.fontawesome.com/dd82353b60.js" crossorigin="anonymous"></script>
 
     <!-- Font Awesome -->
-    <link
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    rel="stylesheet"
-    />
+    <script src="https://kit.fontawesome.com/4767bdaff4.js" crossorigin="anonymous"></script>
+
       <!-- Google Fonts -->
       <link
       href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
       rel="stylesheet"
     />
-    <!-- MDB -->
-    <link
-    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.css"
-    rel="stylesheet"
-    />
 </head>
 <body>
     <head>
             <nav class="navbar navbar-expand-lg navbar-dark bg-black p-4">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Book Store</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Link
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link disabled">Link</a>
-                      </li>
-                    </ul>
-                    <form class="d-flex">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
+                <div class="container-fluid d-flex justify-content-between">
+                  <div class="d-flex">
+                    <img src="img/logo.png" height="90px" width="200px"alt="" srcset="">
+                  </div> 
+                   <div class="d-flex">
+                    
+                    <form class="d-flex justify-content-start h-75">
+                      <input class="form-control me-2 w-150" type="search" placeholder="Search">
+                      <button class="btn btn-outline-success d-flex" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                     </form>
+                    <button type="button" class="btn btn-outline-light ms-5">Login</button>
+                   </div>
                   </div>
                 </div>
-              </nav>
+              </nav> 
+              
+              
     </head>
 
 
@@ -99,65 +74,10 @@
         </div>
       </div>
       <div class="container">
+        <h2 class="text-center text-info mt-5 font-italic">BEST SELLING</h2>
         <div class="row">
-          <div class=" col-lg-3 col-md-3 bg-dark text-center text-light my-3"> 
-            <h4 class="text-success fw-bolder py-3 ">CATEGORIES</h4>
-            <div class="d-grid gap-3 ">
-              <li class="btn btn-outline-info">Action and Adventure</li>
-              <li class="btn btn-outline-info">Classics</li>
-              <li class="btn btn-outline-info">Comic Book or Graphic Novel</li>
-              <li class="btn btn-outline-info">Detective and Mystery</li>
-              <li class="btn btn-outline-info">Fantasy</li>
-              <li class="btn btn-outline-info">Historical Fiction</li>
-              <li class="btn btn-outline-info">Horror</li>
-              <li class="btn btn-outline-info">Literary Fiction</li>
-              <li class="btn btn-outline-info">Romance</li>
-              <li class="btn btn-outline-info">Science Fiction (Sci-Fi)</li>
-              <li class="btn btn-outline-info">Short Stories</li>
-              <li class="btn btn-outline-info">Suspense and Thrillers</li>
-              <li class="btn btn-outline-info">Women's Fiction</li>
-              <li class="btn btn-outline-info">Biographies and Autobiographies</li>
-              <li class="btn btn-outline-info">Cookbooks</li>
-              <li class="btn btn-outline-info">Essays</li>
-              <li class="btn btn-outline-info">History</li>
-              <li class="btn btn-outline-info">Memoir</li>
-              <li class="btn btn-outline-info">Poetry</li>
-              <li class="btn btn-outline-info">Self-Help</li>
-              <li class="btn btn-outline-info">True Crime</li>
-            </div>
-          </div>
-          <div class="col-lg-9 col-md-9"> 
-            <!-- <div class="row">
-              <div class="col-lg-4 text-center p-3 my-3 border border-dark rounded-3" >
-                <img src="bookstore.jpg" class="img-responsive img-fluid" alt="" srcset="">
-                <h1>Book</h1>
-                <h3>Ami writter</h3>
-                <p class="text-success">Product in stock</p>
-                <h6>350 TAKA</h6>
-                <h5> 280 TAKA</h5>
-                <h3 class="btn btn-primary">Add To Cart</h3>
-              </div>
-              <div class="col-lg-4 text-center p-3 my-3 border border-dark rounded-3" >
-                <img src="bookstore.jpg" class="img-responsive img-fluid" alt="" srcset="">
-                <h1>Book</h1>
-                <h3>Ami writter</h3>
-                <p class="text-success">Product in stock</p>
-                <h6>350 TAKA</h6>
-                <h5> 280 TAKA</h5>
-                <h3 class="btn btn-primary">Add To Cart</h3>
-              </div>
-              <div class="col-lg-4 text-center p-3 my-3 border border-dark rounded-3" >
-                <img src="bookstore.jpg" class="img-responsive img-fluid" alt="" srcset="">
-                <h1>Book</h1>
-                <h3>Ami writter</h3>
-                <p class="text-success">Product in stock</p>
-                <h6>350 TAKA</h6>
-                <h5> 280 TAKA</h5>
-                <h3 class="btn btn-primary">Add To Cart</h3>
-              </div>
-              
-            </div> -->
-            <div class="row row-cols-1 row-cols-md-3 g-4 my-3 text-center">
+          <div class="col-lg-12 col-md-12"> 
+            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5 g-4 my-3 text-center">
               <div class="col">
                 <div class="card h-100">
                   <img src="img/book1.webp" class="card-img-top img-fluid" alt="">
@@ -168,8 +88,9 @@
                     <h6 class="text-danger"><s>&#2547;1250</s></h6>
                     <h5 class="text-primary">&#2547;980</h5>
                   </div>
-                  <div class="card-footer">
-                    <h5 class="btn btn-rounded btn-primary">Add to Cart</h5>
+                  <div class="card-footer d-flex flex-column">
+                    <button class="btn btn-rounded btn-primary m-auto w-75 my-2 ">Add to Cart</button>
+                    <button class="btn btn-rounded btn-success w-75 m-auto">Buy Now</button>
                   </div>
                 </div>
               </div>
@@ -183,8 +104,9 @@
                     <h6 class="text-danger"><s>&#2547;650</s></h6>
                     <h5 class="text-primary">&#2547;580</h5>
                   </div>
-                  <div class="card-footer">
-                    <h5 class="btn btn-rounded btn-primary">Add to Cart</h5>
+                  <div class="card-footer d-flex flex-column">
+                    <button class="btn btn-rounded btn-primary m-auto w-75 my-2 ">Add to Cart</button>
+                    <button class="btn btn-rounded btn-success w-75 m-auto">Buy Now</button>
                   </div>
                 </div>
               </div>
@@ -198,8 +120,9 @@
                     <h6 class="text-danger"><s>&#2547;999</s></h6>
                     <h5 class="text-primary">&#2547;899</h5>
                   </div>
-                  <div class="card-footer">
-                    <h5 class="btn btn-rounded btn-primary">Add to Cart</h5>
+                  <div class="card-footer d-flex flex-column">
+                    <button class="btn btn-rounded btn-primary m-auto w-75 my-2 ">Add to Cart</button>
+                    <button class="btn btn-rounded btn-success w-75 m-auto">Buy Now</button>
                   </div>
                 </div>
               </div>
@@ -213,8 +136,9 @@
                     <h6 class="text-danger"><s>&#2547;1278</s></h6>
                     <h5 class="text-primary">&#2547;999</h5>
                   </div>
-                  <div class="card-footer">
-                    <h5 class="btn btn-rounded btn-primary">Add to Cart</h5>
+                  <div class="card-footer d-flex flex-column">
+                    <button class="btn btn-rounded btn-primary m-auto w-75 my-2 ">Add to Cart</button>
+                    <button class="btn btn-rounded btn-success w-75 m-auto">Buy Now</button>
                   </div>
                 </div>
               </div>
@@ -228,11 +152,18 @@
                     <h6 class="text-danger"><s>&#2547;1356</s></h6>
                     <h5 class="text-primary">&#2547;1099</h5>
                   </div>
-                  <div class="card-footer">
-                    <h5 class="btn btn-rounded btn-primary">Add to Cart</h5>
+                  <div class="card-footer d-flex flex-column">
+                    <button class="btn btn-rounded btn-primary m-auto w-75 my-2 ">Add to Cart</button>
+                    <button class="btn btn-rounded btn-success w-75 m-auto">Buy Now</button>
                   </div>
                 </div>
               </div>
+              
+            </div>
+          </div>
+          <h2 class="text-center text-warning mt-5 font-bolder">New Arrival</h2>
+          <div class="col-lg-12 col-md-12"> 
+            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5 g-4 my-3 text-center">
               <div class="col">
                 <div class="card h-100">
                   <img src="img/book6.jpg" class="card-img-top" alt="...">
@@ -243,8 +174,98 @@
                     <h6 class="text-danger"><s>&#2547;1990</s></h6>
                     <h5 class="text-primary">&#2547;1550</h5>
                   </div>
-                  <div class="card-footer">
-                    <h5 class="btn btn-rounded btn-primary">Add to Cart</h5>
+                  <div class="card-footer d-flex flex-column">
+                    <button class="btn btn-rounded btn-primary m-auto w-75 my-2 ">Add to Cart</button>
+                    <button class="btn btn-rounded btn-success w-75 m-auto">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="img/book11.jpg" height="383px" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">The Atlas Six </h5>
+                    <p class="card-text">Olivie Blake</p>
+                    <p class="text-success">Avialable in Stock!</p>
+                    <h6 class="text-danger"><s>&#2547;799</s></h6>
+                    <h5 class="text-primary">&#2547;680</h5>
+                  </div>
+                  <div class="card-footer d-flex flex-column">
+                    <button class="btn btn-rounded btn-primary m-auto w-75 my-2 ">Add to Cart</button>
+                    <button class="btn btn-rounded btn-success w-75 m-auto">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col">
+                <div class="card h-100">
+                  <img src="img/book8.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">The Magician's Nephew</h5>
+                    <p class="card-text">C. S. Lewis</p>
+                    <p class="text-success">Avialable in Stock!</p>
+                    <h6 class="text-danger"><s>&#2547;699</s></h6>
+                    <h5 class="text-primary">&#2547;499</h5>
+                  </div>
+                  <div class="card-footer d-flex flex-column">
+                    <button class="btn btn-rounded btn-primary m-auto w-75 my-2 ">Add to Cart</button>
+                    <button class="btn btn-rounded btn-success w-75 m-auto">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="img/book12.webp" height="383px" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">The Hollows</h5>
+                    <p class="card-text">	
+                      Mark Edwards</p>
+                    <p class="text-success">Avialable in Stock!</p>
+                    <h6 class="text-danger"><s>&#2547;999</s></h6>
+                    <h5 class="text-primary">&#2547;818</h5>
+                  </div>
+                  <div class="card-footer d-flex flex-column">
+                    <button class="btn btn-rounded btn-primary m-auto w-75 my-2 ">Add to Cart</button>
+                    <button class="btn btn-rounded btn-success w-75 m-auto">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col">
+                <div class="card h-100">
+                  <img src="img/book10.webp" height="383px" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Brave New World</h5>
+                    <p class="card-text">	
+                      Aldous Huxley</p>
+                    <p class="text-success">Avialable in Stock!</p>
+                    <h6 class="text-danger"><s>&#2547;1399</s></h6>
+                    <h5 class="text-primary">&#2547;1153</h5>
+                  </div>
+                  <div class="card-footer d-flex flex-column">
+                    <button class="btn btn-rounded btn-primary m-auto w-75 my-2 ">Add to Cart</button>
+                    <button class="btn btn-rounded btn-success w-75 m-auto">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h2 class="text-center text-dark mt-5 font-bolder">Top Reviewed</h2>
+          <div class="col-lg-12 col-md-12"> 
+            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5 g-4 my-3 text-center">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="img/book7.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">The 4-Hour Workweek</h5>
+                    <p class="card-text">Timothy Ferriss</p>
+                    <p class="text-success">Avialable in Stock!</p>
+                    <h6 class="text-danger"><s>&#2547;1099</s></h6>
+                    <h5 class="text-primary">&#2547;899</h5>
+                  </div>
+                  <div class="card-footer d-flex flex-column">
+                    <button class="btn btn-rounded btn-primary m-auto w-75 my-2 ">Add to Cart</button>
+                    <button class="btn btn-rounded btn-success w-75 m-auto">Buy Now</button>
                   </div>
                 </div>
               </div>
@@ -258,85 +279,57 @@
                     <h6 class="text-danger"><s>&#2547;1099</s></h6>
                     <h5 class="text-primary">&#2547;899</h5>
                   </div>
-                  <div class="card-footer">
-                    <h5 class="btn btn-rounded btn-primary">Add to Cart</h5>
+                  <div class="card-footer d-flex flex-column">
+                    <button class="btn btn-rounded btn-primary m-auto w-75 my-2 ">Add to Cart</button>
+                    <button class="btn btn-rounded btn-success w-75 m-auto">Buy Now</button>
                   </div>
                 </div>
               </div>
               <div class="col">
                 <div class="card h-100">
-                  <img src="img/book8.jpg" class="card-img-top" alt="...">
+                  <img src="img/book7.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">The Magician's Nephew</h5>
-                    <p class="card-text">C. S. Lewis</p>
+                    <h5 class="card-title">The 4-Hour Workweek</h5>
+                    <p class="card-text">Timothy Ferriss</p>
                     <p class="text-success">Avialable in Stock!</p>
-                    <h6 class="text-danger"><s>&#2547;699</s></h6>
-                    <h5 class="text-primary">&#2547;499</h5>
+                    <h6 class="text-danger"><s>&#2547;1099</s></h6>
+                    <h5 class="text-primary">&#2547;899</h5>
                   </div>
-                  <div class="card-footer">
-                    <h5 class="btn btn-rounded btn-primary">Add to Cart</h5>
+                  <div class="card-footer d-flex flex-column">
+                    <button class="btn btn-rounded btn-primary m-auto w-75 my-2 ">Add to Cart</button>
+                    <button class="btn btn-rounded btn-success w-75 m-auto">Buy Now</button>
                   </div>
                 </div>
               </div>
               <div class="col">
                 <div class="card h-100">
-                  <img src="img/book9.jpg" class="card-img-top" alt="...">
+                  <img src="img/book7.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">The Glass Menagerie</h5>
-                    <p class="card-text">Tennessee Williams</p>
+                    <h5 class="card-title">The 4-Hour Workweek</h5>
+                    <p class="card-text">Timothy Ferriss</p>
                     <p class="text-success">Avialable in Stock!</p>
-                    <h6 class="text-danger"><s>&#2547;1294</s></h6>
-                    <h5 class="text-primary">&#2547;1230</h5>
+                    <h6 class="text-danger"><s>&#2547;1099</s></h6>
+                    <h5 class="text-primary">&#2547;899</h5>
                   </div>
-                  <div class="card-footer">
-                    <h5 class="btn btn-rounded btn-primary">Add to Cart</h5>
+                  <div class="card-footer d-flex flex-column">
+                    <button class="btn btn-rounded btn-primary m-auto w-75 my-2 ">Add to Cart</button>
+                    <button class="btn btn-rounded btn-success w-75 m-auto">Buy Now</button>
                   </div>
                 </div>
               </div>
               <div class="col">
                 <div class="card h-100">
-                  <img src="img/book10.webp" class="card-img-top" alt="...">
+                  <img src="img/book7.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Brave New World</h5>
-                    <p class="card-text">	
-                      Aldous Huxley</p>
+                    <h5 class="card-title">The 4-Hour Workweek</h5>
+                    <p class="card-text">Timothy Ferriss</p>
                     <p class="text-success">Avialable in Stock!</p>
-                    <h6 class="text-danger"><s>&#2547;1399</s></h6>
-                    <h5 class="text-primary">&#2547;1153</h5>
+                    <h6 class="text-danger"><s>&#2547;1099</s></h6>
+                    <h5 class="text-primary">&#2547;899</h5>
                   </div>
-                  <div class="card-footer">
-                    <h5 class="btn btn-rounded btn-primary">Add to Cart</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card h-100">
-                  <img src="img/book11.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">The Atlas Six </h5>
-                    <p class="card-text">Olivie Blake</p>
-                    <p class="text-success">Avialable in Stock!</p>
-                    <h6 class="text-danger"><s>&#2547;799</s></h6>
-                    <h5 class="text-primary">&#2547;680</h5>
-                  </div>
-                  <div class="card-footer">
-                    <h5 class="btn btn-rounded btn-primary">Add to Cart</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card h-100">
-                  <img src="img/book12.webp" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">The Hollows</h5>
-                    <p class="card-text">	
-                      Mark Edwards</p>
-                    <p class="text-success">Avialable in Stock!</p>
-                    <h6 class="text-danger"><s>&#2547;999</s></h6>
-                    <h5 class="text-primary">&#2547;818</h5>
-                  </div>
-                  <div class="card-footer">
-                    <h5 class="btn btn-rounded btn-primary">Add to Cart</h5>
+                  <div class="card-footer d-flex flex-column">
+                    <button class="btn btn-rounded btn-primary m-auto w-75 my-2 ">Add to Cart</button>
+                    <button class="btn btn-rounded btn-success w-75 m-auto">Buy Now</button>
                   </div>
                 </div>
               </div>
@@ -346,68 +339,40 @@
       </div>
     </main>
 
-
-    <footer class="footer-48201">
-      
-      <div class="container">
+    <footer class="bg-dark text-white">
+      <div class="container  py-5">
         <div class="row">
-          <div class="col-md-4 pr-md-5">
-            <a href="#" class="footer-site-logo d-block mb-4">Colorlib</a>
-            <p class="pe-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quasi perferendis ratione perspiciatis accusantium.</p>
+          <div class="col-lg-3 col-md-6">
+            <img src="img/logo.png" height="90" weight="200" alt="" srcset="">
           </div>
-          <div class="col-md">
-            <ul class="list-unstyled nav-links">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
+          <div class="col-lg-3 col-md-6 py-4">
+            <p>Home</p>
+            <p>About us</p>
+            <p>Books</p>
+            <p>Contact us</p>
           </div>
-          <div class="col-md">
-            <ul class="list-unstyled nav-links">
-              <li><a href="#">Clients</a></li>
-              <li><a href="#">Team</a></li>
-              <li><a href="#">Career</a></li>
-              <li><a href="#">Testimonials</a></li>
-              <li><a href="#">Journal</a></li>
-            </ul>
+          <div class="col-lg-3 col-md-6 py-4">
+            <p>Privacy Policy</p>
+            <p>Terms & condition</p>
           </div>
-          <div class="col-md">
-            <ul class="list-unstyled nav-links">
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Terms &amp; Conditions</a></li>
-              <li><a href="#">Partners</a></li>
-            </ul>
+          <div class="col-lg-3 col-md-6 py-5">
+            <button class="btn btn-danger text-center rounded-pill ">Contact us</button>
           </div>
-          <div class="col-md text-md-center">
-            <ul class="social list-unstyled">
-              <li><a href="#"><span class="icon-instagram"></span></a></li>
-              <li><a href="#"><span class="icon-twitter"></span></a></li>
-              <li><a href="#"><span class="icon-facebook"></span></a></li>
-              <li><a href="#"><span class="icon-pinterest"></span></a></li>
-              <li><a href="#"><span class="icon-dribbble"></span></a></li>
-            </ul>
-            <p class=""><a href="#" class="btn btn-tertiary">Contact Us</a></p>
-          </div>
-        </div> 
-
-        <div class="row ">
-          <div class="col-12 text-center">
-            <div class="copyright mt-5 pt-5">
-              <p><small>&copy; 2019-2020 All Rights Reserved.</small></p>
-            </div>
-          </div>
-        </div> 
-      </div>
-      
+        </div>
+        <hr>
+        <div class="row-col-lg-1 text-center pt-5">
+          <p><small>&copy; 2021-2022 All Rights Reserved.</small></p>
+        </div>
+      </div>   
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"
-    ></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     
 </body>
 </html>
+
+
+
